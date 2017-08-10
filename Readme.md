@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Almiesky](https://up.htmlacademy.ru/htmlcss/18/user/7135).
-* Наставник: `Неизвестно`.
+* Наставник: [Артур Мирзоян](https://htmlacademy.ru/profile/id302093).
 
 ---
 

@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Almiesky](https://up.htmlacademy.ru/htmlcss/18/user/7135).
+* Студент: [Анна Ткаченко](https://up.htmlacademy.ru/htmlcss/18/user/7135).
 * Наставник: [Артур Мирзоян](https://htmlacademy.ru/profile/id302093).
 
 ---

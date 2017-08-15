@@ -5,8 +5,182 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+     <header class="main-header">
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="#">Информация</a>
+                </li>
+                <li>
+                    <a href="#">Фото и Видео</a>
+                </li>
+                <li>
+                    <a class="main-header-logo">
+                        <img src="http://placehold.it/139x70" width="139" height="70"  alt="City of Sedona">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Карта штата</a>
+                </li>
+                <li>
+                    <a href="#">Гостиницы</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="visually-hidden">Седона</h1>
+        <div class="bg-block1">
+            <div class="bg-block2">
+                <div class="bg-block3">
+                    
+                </div>
+            </div>
+        </div>
+          <section class="presentation">
+              <h2 class="tagline">Седона — небольшой городок в Аризоне,
+              заслуживающий большего!</h2>
+              <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+          </section>
+          <section class="index-page">
+             <h2 class="visually-hidden">Преимущества</h2>
+             <div class="strip-block">
+                  <div class="pic-town-strip">
+                     <img src="http://placehold.it/800x400" alt="Живой городок" class="town-strip strip-pic" width="800" height="400">
+                         <div class="town-strip">
+                             <h2 class="title">Настоящий городок</h2>
+                             <p class="num-town-strip text">— №1 —</p>
+                             <p class="text-town-strip text">Cедона — не аттракцион для туристов, там течет своя жизнь </p>
+                         </div>
+                  </div>  
+              </div>
+              <div class="features">
+                 <div class="feature">
+                      <img src="http://placehold.it/75x70" width="75" height="70" alt="Motel">
+                      <h2 class="features-title">Жилье</h2>
+                      <p class="features-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                  </div>
+                  <div class="feature">
+                      <img src="http://placehold.it/75x70" width="75" height="70" alt="Food">
+                      <h2 class="features-title">Еда</h2>
+                      <p class="features-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                  </div>
+                  <div class="feature">
+                      <img src="http://placehold.it/75x70" width="75" height="70"  alt="Souvenires">
+                      <h2 class="features-title">Сувениры</h2>
+                      <p class="features-text">Не только китайского,но и местного производства!</p>
+                  </div>
+              </div>
+              <div class="strip-block">
+                  <div class="pic-rock-strip">
+                     <img src="http://placehold.it/800x400" alt="Мост дьявола" class="town-strip strip-pic" width="800" height="400">
+                         <div class="town-strip">
+                             <h2 class="title">Там есть <br> мост дьявола</h2>
+                             <p class="num-town-strip text">— №2 —</p>
+                             <p class="text-town-strip text">Да, по ему можно пройти!
+                      Если, конечно, вы осмелитесь</p>
+                         </div>
+                  </div>  
+              </div>
+              <div class="advantages">
+                  <div class="strip-card">
+                      <h2 class="strip-card title">Небольшая площадь</h2>
+                      <p class="strip-card num">— №3 —</p>
+                      <p class="strip-card text">Все достопримечательности
+                      находятся очень близко</p>
+                  </div>
+                  <div class="strip-card">
+                      <h2 class="strip-card title">Красивая дорога</h2>
+                      <p class="strip-card num">— №4 —</p>
+                      <p class="strip-card text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                  </div>
+                  <div class="strip-card">
+                      <h2 class="strip-card title">Мало туристов</h2>
+                      <p class="strip-card num">— №5 —</p>
+                      <p class="strip-card text">Большинство едет в Гранд Каньон и толпится там</p>
+                  </div>
+              </div>
+          </section>
+         <section class="promo">
+              <div class="promo-block">
+                <h2 class="promo-title">Заинтересовались?</h2>
+                <p class="promo-text">Укажите редполагаемые даты поездки,
+                  и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
+              </div>
+              <div class="find-hotel">
+                  <a href="#" class="find-hotel">
+                      <h3 class="totel-search">Поиск гостиницы в седоне</h3>
+                  </a>
+              </div>
+              <div class="calendar">
+                  <label for="checkin">Дата заезда:</label>
+                  <span class="field-date">
+                  <input type="text" id="checkin" name="checkin" value="24 апреля 2016">
+                  <a class="calendar-button" href="#">
+                      <svg version="1" xmlns="http://www.w3.org/2000/svg" width="19.875" height="21.916" viewBox="0 0 19.875 21.916">
+                          <path d="M17.04 2h-2.081v-2h-2v2h-6.042v-2h-2v2h-2.082c-1.56 0-2.835 1.275-2.835 2.835v14.246c0 1.56 1.275 2.835 2.835 2.835h14.205c1.56 0 2.835-1.275 2.835-2.835v-14.246c0-1.56-1.275-2.835-2.835-2.835zm.835 17.081c0 .453-.383.835-.835.835h-14.205c-.452 0-.835-.382-.835-.835v-14.246c0-.453.383-.835.835-.835h14.205c.452 0 .835.382.835.835v14.246zm-12.958-12.123h2v2h-2zm8.042 0h2v2h-2zm-4.021 0h2v2h-2zm-4.021 4h2v2h-2zm8.042 0h2v2h-2zm-4.021 0h2v2h-2zm-4.021 3.984h2v2h-2zm8.042 0h2v2h-2zm-4.021 0h2v2h-2z"></path>
+                      </svg>
+                  </a>
+                  </span>
+             </div>
+             <div class="calendar">
+                 <label for="checkout">Дата выезда:</label>
+                 <span class="field-date">
+                 <input type="text" id="checkout" name="checkout" value="24 июня 2016">
+                 <a class="calendar-button" href="#">
+                     <svg version="1" xmlns="http://www.w3.org/2000/svg" width="19.875" height="21.916" viewBox="0 0 19.875 21.916">
+                         <path d="M17.04 2h-2.081v-2h-2v2h-6.042v-2h-2v2h-2.082c-1.56 0-2.835 1.275-2.835 2.835v14.246c0 1.56 1.275 2.835 2.835 2.835h14.205c1.56 0 2.835-1.275 2.835-2.835v-14.246c0-1.56-1.275-2.835-2.835-2.835zm.835 17.081c0 .453-.383.835-.835.835h-14.205c-.452 0-.835-.382-.835-.835v-14.246c0-.453.383-.835.835-.835h14.205c.452 0 .835.382.835.835v14.246zm-12.958-12.123h2v2h-2zm8.042 0h2v2h-2zm-4.021 0h2v2h-2zm-4.021 4h2v2h-2zm8.042 0h2v2h-2zm-4.021 0h2v2h-2zm-4.021 3.984h2v2h-2zm8.042 0h2v2h-2zm-4.021 0h2v2h-2z"></path>
+                     </svg>
+                 </a>
+                 </span>
+            </div>
+            <div class="form-fields">
+                <label for="adults">Взрослые:</label>
+                <span class="field-adults">
+                      <a class="minus-button" href="#">-</a>
+                      <input type="text" id="adults" name="adults" value="0">
+                      <a class="plus-button" href="#">+</a>
+               </span>
+           </div>
+           <div class="form-fields">
+               <label for="children"> 
+                   Дети:
+               </label>
+               <span class="field-children">
+                   <a class="minus-button" href="#">-</a>
+                   <input type="text" id="children" name="children"  value="0">
+                   <a class="plus-button" href="#">+</a>
+               </span>
+           </div>
+           <div class="search-button">
+               <button class="button" type="submit">Найти</button>
+           </div>
+           <div class="map">
+                  <a href="#">
+                      <img src="http://placehold.it/1200x475" width="1200" height="475" alt="City Map">
+                  </a>
+          </div>
+        </section>
+      </main>
+   <footer class="main-footer">
+       <div class="main-footer">
+           <div class="footer-hashtag">
+                <a href="#"> #visitsedona</a>
+           </div>
+           <div class="footer-social">
+               <ul>
+                    <li><a class="social-button-tw" href="#">Twitter</a></li>
+                    <li><a class="social-button-fb" href="#">Фейсбук</a></li>
+                    <li><a class="social-button-yb" href="#">YouTube</a></li>
+               </ul>
+           </div>
+          <div class="footer-copyright">
+              <p>Website by:</p>
+              <a class="button-logo" href="https://htmlacademy.ru">
+                  <img src="http://placehold.it/60x30" width="60" height="30" alt="HTML Academy">
+              </a>
+          </div>
+      </div>
+    </footer>
   </body>
 </html>
